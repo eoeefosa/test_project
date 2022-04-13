@@ -5,4 +5,9 @@ class SomeClass {
   static void myMethod() {
     print('hello');
   }
+
+  int get() {
+    print("myproperty: $myProperty");
+    return (1);
+  }
 }

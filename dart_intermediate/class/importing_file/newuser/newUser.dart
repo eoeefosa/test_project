@@ -1,12 +1,14 @@
 import 'classnewUser.dart';
 import 'static.dart';
 
-void main(List<String> args) {
+void main() {
   final the = SomeClass();
   final value = SomeClass.myProperty;
   SomeClass.myMethod();
+  SomeClass.myMethod();
 
-  final nerd = User(id: 30, name: "thy");
+  print(the.get());
+  final nerd = User(id: -9, name: "thy");
   final thedi = User.anonymous();
   print(nerd);
   print(thedi);
